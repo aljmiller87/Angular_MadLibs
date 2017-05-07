@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <title>MadLibs</title>
     </head>
-    <body ng-controller="myCtrl">
+    <body ng-controller="myCtrl as vm">
         <p>Female Name 1: 
             <input type="text" ng-model="femaleName" >
         </p>
@@ -40,7 +40,6 @@
         <p>Huge Number: 
             <input type="text" ng-model="hugeNumber">
         </p>
-
 
         <p>{{femaleName}} was a {{jobTitle}} who loved technology. Although she loved parts of her job, she absolutely hated {{tediousTask}} and {{dirtyTask}}. So, {{femaleName}} met with her life mentor {{celebrity}} who told her to learn how to {{uselessSkill}} with Thinkful. Thinkful didn't offer a course on {{uselessSkill}} so she studied programming instead.
 
